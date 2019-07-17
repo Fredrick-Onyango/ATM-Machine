@@ -32,6 +32,7 @@ public class ATM{
       in = new Scanner(System.in);
 
       // call our transaction method here 
+	
       transaction();
   }
 
@@ -56,7 +57,7 @@ public class ATM{
               System.out.println("BALANCE "+balance+"\n");
 
               //Option to go back to menu
-              System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+              System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
               anotherTransaction = in.nextInt();
 		
 			if(anotherTransaction == 8){
@@ -82,7 +83,7 @@ public class ATM{
 				 System.out.println("You have exceeded maximum deposit of 40,000 per transaction.\n\n");
 				  deposit = in.nextFloat();
 	              //Option to go back to menu
-	              System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+	              System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
 	              anotherTransaction = in.nextInt();
 			
 				if(anotherTransaction == 8){
@@ -105,7 +106,7 @@ public class ATM{
 				   balance = balance-deposit;
 				   deposit = in.nextFloat();
 		              //Option to go back to menu
-		              System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+		              System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
 		              anotherTransaction = in.nextInt();
 				
 					if(anotherTransaction == 8){
@@ -126,7 +127,7 @@ public class ATM{
 				  {
 				   System.out.println("You have exceeded maximum deposit frequency of 4\n\n");
 		              //Option to go back to menu
-		              System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+		              System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
 		              anotherTransaction = in.nextInt();
 				
 					if(anotherTransaction == 8){
@@ -145,7 +146,7 @@ public class ATM{
               System.out.println("You have deposited "+deposit+" new balance is "+balance+"\n");
               
               //Option to go back to menu
-              System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+              System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
               anotherTransaction = in.nextInt();
 		
 			if(anotherTransaction == 8){
@@ -172,7 +173,7 @@ public class ATM{
                   
                 //Option to go back to menu
                // ask if they want another transaction
-                  System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+                  System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
                   anotherTransaction = in.nextInt();
     		
     			if(anotherTransaction == 1){
@@ -195,7 +196,7 @@ public class ATM{
 					 amount = in.nextFloat();
 		                //Option to go back to menu
 		               // ask if they want another transaction
-		                  System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+		                  System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
 		                  anotherTransaction = in.nextInt();
 		    		
 		    			if(anotherTransaction == 8){
@@ -218,7 +219,7 @@ public class ATM{
 					  amount = in.nextFloat();
 		                //Option to go back to menu
 		               // ask if they want another transaction
-		                  System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+		                  System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
 		                  anotherTransaction = in.nextInt();
 		    		
 		    			if(anotherTransaction == 8){
@@ -240,7 +241,7 @@ public class ATM{
 					   System.out.println("You have exceeded maximum withdraw frequency of 3\n\n");
 		                //Option to go back to menu
 		               // ask if they want another transaction
-		                  System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+		                  System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
 		                  anotherTransaction = in.nextInt();
 		    		
 		    			if(anotherTransaction == 8){
@@ -259,7 +260,7 @@ public class ATM{
                   System.out.println("You have withdrawn "+amount+" and your new balance is "+balance+"\n");
                   
                   //Option to go back to menu
-                  System.out.println("Type ì8î and press enter to go back to main menu or ì9î to quit\n");
+                  System.out.println("Type ‚Äú8‚Äù and press enter to go back to main menu or ‚Äú9‚Äù to quit\n");
                   anotherTransaction = in.nextInt();
     		
     			if(anotherTransaction == 8){
